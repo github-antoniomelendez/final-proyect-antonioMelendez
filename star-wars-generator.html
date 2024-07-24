@@ -10,9 +10,19 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="styles/star-wars-generator.css">
+  <link rel="icon" href="favicon.ico" />
 </head>
 
 <body>
+  <header>
+    <img
+      src="images/starwars.webp"
+      alt="Star Wars Logo"
+      width="100"
+      height="75"
+    />
+    <span>The Untold Story Of The Sith</span>
+  </header>
   <nav>
     <ul id="menu">
 
@@ -20,7 +30,7 @@
   </nav>
   <main id="gridly">
     <h1>Star Wars</h1>
-    <h3>What if... the untold story of the Sith!</h3>
+    <h3>What if... a new and original story every single time!</h3>
     <h2> A long time ago, in a galaxy far, far away ...</h2>
     <p id="info">
       Sith Lord Darth <span id="person6"></span> has a new apprentice named  <span id="person1"></span>,
@@ -35,19 +45,30 @@
       and <span id="pronoun3"></span> Jedi.
       Watch the remake of the movie <span id="movies"></span> to find out more of the true story of the Sith.
     </p>
+
     <button id="button"></button>
     <p id="info">
       <span id="array"></span> Remakes Coming Soon!
     </p>
+    <section class="card2">
+      <h2>Weather Information</h2>
+      
+        <h3 id="town"></h3>
+        <img id="graphic" src="." alt="">
+        <p id="description"></p>
+        <p id="temperature"></p>
+        <p class="label">Number of Visits:</p>
+        <p class="visits"></p>
+
+    </section>
   </main>
 
   <footer>
-    &copy;<span id="year"></span> | Final Project - Antonio Meléndez | WDD 330
+    &copy;<span id="year1"></span> | Final Project - Antonio Meléndez | WDD 330
+    <p></p>  
+    <strong>Last Modified:</strong>
+      <div id="today1" class="step-reset step"></div>
   </footer>
-  <script src="scripts/star-wars-generator.js"></script>
-  <script>
-    document.getElementById("year").innerHTML = new Date().getFullYear();
-  </script>
   <script src="scripts/star-wars-generator.js"></script>
 </body>
 
